@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::apiResource('/users', User::class);
+// Route::apiResource('/users', User::class);
